@@ -9,6 +9,7 @@ services:
       CPU_CORES: "2"
       DISK_SIZE: "20G"
       AUDIO: "Y"
+      NETWORK: "user"
 
     cap_add:
       - NET_ADMIN
