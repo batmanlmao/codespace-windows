@@ -10,6 +10,7 @@ services:
       DISK_SIZE: "20G"
       AUDIO: "Y"
       NETWORK: "user"
+      ADAPTER: "e1000e"
 
     cap_add:
       - NET_ADMIN
